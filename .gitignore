@@ -1,0 +1,9 @@
+# .gitignore
+
+#config
+config.py
+
+#vscode
+.vscode
+
+2-lightweight-charts/__pycache__
