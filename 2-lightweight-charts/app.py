@@ -70,7 +70,7 @@ def setting():
 @app.route("/history")
 def history():
     candlesticks = client.get_historical_klines(
-        "BNBUSDT", Client.KLINE_INTERVAL_1MINUTE, "1 Nov, 2021", "16 Nov, 2021"
+        "BNBUSDT", Client.KLINE_INTERVAL_1MINUTE, "20 Dec, 2021", "1 Jan, 2022"
     )
 
     process_candlesticks = []
