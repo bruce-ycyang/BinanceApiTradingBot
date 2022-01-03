@@ -12,3 +12,5 @@ $ pip install -r requirements.txt
 $ export FLASK_APP=app
 $ flask run
 ```
+
+![image](https://github.com/bruce-ycyang/BinanceApiTradingBot/blob/master/charts-pic/lightchart.png)
